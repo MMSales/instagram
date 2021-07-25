@@ -65,6 +65,7 @@ body {
 }
 
 .instagram-logo{
+    
     height: 10.5rem;
 }
 
@@ -85,9 +86,40 @@ body {
     color:  white;
     padding: 8px;
     border-radius: 4px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 
 .link-blue{
     color: #0095f6;
+}
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+    
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
 }
